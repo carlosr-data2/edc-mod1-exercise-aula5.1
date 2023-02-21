@@ -3,6 +3,7 @@ import boto3
 def handler(event, context):
     """
     Lambda function that starts a job flow in EMR.
+    34 37 parei aqui
     """
     client = boto3.client('emr', region_name='us-east-1')
 
