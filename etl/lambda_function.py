@@ -20,14 +20,14 @@ def handler(event, context):
                             'Name': 'Master nodes',
                             'Market': 'SPOT',
                             'InstanceRole': 'MASTER',
-                            'InstanceType': 'm5.xlarge',
+                            'InstanceType': 'm4.large',
                             'InstanceCount': 1,
                         },
                         {
                             'Name': 'Worker nodes',
                             'Market': 'SPOT',
                             'InstanceRole': 'CORE',
-                            'InstanceType': 'm5.xlarge',
+                            'InstanceType': 'm4.large',
                             'InstanceCount': 1,
                         }
                     ],
