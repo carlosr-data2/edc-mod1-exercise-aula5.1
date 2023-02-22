@@ -31,7 +31,7 @@ def handler(event, context):
                             'InstanceCount': 1,
                         }
                     ],
-                    'Ec2KeyName': 'ney-igti-teste',
+                    'Ec2KeyName': 'my_key_pair',
                     'KeepJobFlowAliveWhenNoSteps': True,
                     'TerminationProtected': False,
                     'Ec2SubnetId': 'subnet-09cce9ac2047ba6e4'
