@@ -31,10 +31,10 @@ def handler(event, context):
                             'InstanceCount': 1,
                         }
                     ],
-                    'Ec2KeyName': 'minha_key_pair',
+                    'Ec2KeyName': 'ney-igti-teste',
                     'KeepJobFlowAliveWhenNoSteps': True,
                     'TerminationProtected': False,
-                    'Ec2SubnetId': 'subnet-1df20360'
+                    'Ec2SubnetId': 'subnet-09cce9ac2047ba6e4'
                 },
 
                 Applications=[
