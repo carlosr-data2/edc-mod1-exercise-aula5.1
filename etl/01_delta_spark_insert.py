@@ -9,6 +9,25 @@ spark = (SparkSession.builder.appName("DeltaExercise")
     .getOrCreate()
 )
 
+
+# subiu cluster emr em 20 minutos
+'''
+Status :FAILED
+Reason :S3 Service Error.
+Log File :s3://datalake-ney-igti-edc-tf/emr-logs/j-2KO0J1V4VIJN0/steps/s-OIFQ37DVMT6N/stderr.gz
+Details :Caused by: com.amazon.ws.emr.hadoop.fs.shaded.com.amazonaws.services.s3.model
+.AmazonS3Exception: Access Denied (Service: Amazon S3; Status Code: 403;
+ Error Code: AccessDenied; Request ID: 9T6TWMWBY6HEVH59; S3 Extended Request 
+ ID: +YZ9mKrzkJ7HEag7O/ZxNWYhkYFAUr6gEZzQqe+eBkx7kFhyHvJpp0KLx78w04bGZJbSJ/tXyiLhC3j37QIvbQ==;
+  Proxy: null), S3 Extended Request ID: +YZ9mKrzkJ7HEag7O/ZxNWYhkYFAUr6gEZzQqe+eBkx7kFhyHvJpp0KL
+  x78w04bGZJbSJ/tXyiLhC3j37QIvbQ==
+
+alterar os noomes dos buckets
+
+'''
+
+
+
 # Importa o modulo das tabelas delta
 from delta.tables import *
 
