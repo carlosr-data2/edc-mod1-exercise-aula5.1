@@ -31,7 +31,7 @@ EOF
 
 resource "aws_iam_policy" "lambda" {
   # dando permissões para o lambda através de policy
-  # teste
+  # testee
   name        = "IGTIAWSLambdaBasicExecutionRolePolicy"
   path        = "/"
   description = "Provides write permissions to CloudWatch Logs, S3 buckets and EMR Steps"
